@@ -1,10 +1,7 @@
 import json
 import subprocess
-import sys, os
-import PIL.ImageTk
-
 from tkinter import *
-from tkinter import messagebox, filedialog, ttk
+from tkinter import ttk
 
 overall_font = "Righteous"
 overall_background_button = "#00008B"
@@ -12,8 +9,6 @@ overall_background_button = "#00008B"
 root = Tk()
 root.title("RDP CONNECTOR")
 root.config(width=430, height=70)
-#root.resizable(0,0)
-
 
 OPTIONS = []
 with open(r'server.json', 'r') as server_json:
