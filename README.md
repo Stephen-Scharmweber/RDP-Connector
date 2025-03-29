@@ -1,28 +1,32 @@
-# RDP Connector
+# RDP Connector / RDP Verbindungsmanager
 
-A lightweight GUI tool to quickly connect to predefined Remote Desktop servers.
+A lightweight GUI tool to quickly connect to predefined Remote Desktop servers.  
+Ein leichtes GUI-Tool für schnelle Verbindungen zu vordefinierten Remote Desktop Servern.
 
-## Features
+## Features / Funktionen
 
-- Dropdown list of servers from JSON configuration
-- One-click RDP connection
-- Simple and minimal interface
-- Easy to add new servers
+- Dropdown list of servers from JSON configuration / Serverauswahl per JSON-Konfiguration
+- One-click RDP connection / Ein-Klick RDP-Verbindung
+- Simple and minimal interface / Einfache und minimale Oberfläche
+- Easy to add new servers / Einfache Serververwaltung
 
-## Requirements
+## Requirements / Voraussetzungen
 
-- Windows OS (uses mstsc.exe)
+- Windows OS (uses mstsc.exe) / Windows Betriebssystem (nutzt mstsc.exe)
 - Python 3.x
-- Tkinter (usually included with Python)
-- Access to Remote Desktop Connection (mstsc)
+- Tkinter (usually included with Python) / Tkinter (meist in Python enthalten)
+- Access to Remote Desktop Connection (mstsc) / Zugriff auf Remotedesktopverbindung
 
 ## Installation
 
-1. Clone or download the repository
-2. Ensure you have Python installed
-3. Edit the `server.json` file with your servers
+1. Clone or download the repository / Repository klonen oder herunterladen  
+   ```bash
+   git clone https://github.com/your-repo/rdp-connector.git
+Ensure you have Python installed / Python Installation überprüfen
 
-## Usage
+Edit the server.json file with your servers / server.json mit eigenen Servern bearbeiten
+
+## Usage / Verwendung
 
 1. Run the script: `python rdp_connector.py`
 2. Select a server from the dropdown menu
