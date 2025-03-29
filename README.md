@@ -21,7 +21,7 @@ Ein leichtes GUI-Tool für schnelle Verbindungen zu vordefinierten Remote Deskto
 
 1. Clone or download the repository / Repository klonen oder herunterladen  
    ```bash
-   [git clone https://github.com/your-repo/rdp-connector.git](https://github.com/Stephen-Scharmweber/RDP-Connector.git)
+   git clone https://github.com/Stephen-Scharmweber/RDP-Connector.git
 Ensure you have Python installed / Python Installation überprüfen
 
 Edit the server.json file with your servers / server.json mit eigenen Servern bearbeiten
