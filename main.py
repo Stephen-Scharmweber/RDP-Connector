@@ -1,11 +1,17 @@
 """
-Windows RDP Connector - GUI Tool to launch Remote Desktop sessions quickly.  
-Features:  
-- JSON-based server management  
-- One-click RDP connection  
-- Lightweight Tkinter interface  
+Windows RDP Connection Manager / RDP-Verbindungsmanager - GUI Tool for Remote Desktop Sessions
 
-Keywords: windows rdp, remote desktop python, json config, mstsc automation  
+Description/Beschreibung:
+A lightweight Python GUI to manage and launch RDP connections via JSON configuration.
+Einfache Python-GUI zur Verwaltung von RDP-Verbindungen per JSON-Konfiguration.
+
+Features/Funktionen:
+- JSON-based server management / Serververwaltung via JSON
+- One-click RDP launch / Ein-Klick-RDP-Verbindung
+- Tkinter GUI interface / Tkinter-Oberfläche
+
+Keywords/Schlüsselwörter:
+windows rdp, remote desktop manager, python gui, json config / RDP Manager, Remotedesktop, Python GUI, JSON Konfiguration
 """
 
 import json
